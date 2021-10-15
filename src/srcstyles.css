@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bio h2{
+    @apply tracking-widest text-lg uppercase;
+}
+
+.bio p{
+    @apply text-lg font-semibold mb-5;
+}
+
+.contact {
+    @apply border rounded-xl;
+}
+
+.benefits{
+    @apply mb-5;
+}
